@@ -5,7 +5,7 @@
  * Documentation: http://www.jaxio.com/documentation/celerio/
  * Source code: https://github.com/jaxio/celerio/
  * Follow us on twitter: @jaxiosoft
- * This header can be customized in Celerio conf...
+ * This header can be customized in Celerio con
  * Template pack-angular:src/main/java/repository/EntityRepository.java.e.vm
  */
 package com.mycompany.myapp.repository;
@@ -21,7 +21,7 @@ import org.springframework.data.jpa.repository.*;
 import com.mycompany.myapp.domain.UseCase2;
 import com.mycompany.myapp.domain.UseCase2_;
 
-public interface UseCase2Repository extends JpaRepository<UseCase2, String> {
+public interface UseCase2Repository extends JpaRepository<UseCase2, String // added string> {
 
     default List<UseCase2> complete(String query, int maxResults) {
         UseCase2 probe = new UseCase2();
