@@ -21,7 +21,7 @@ import org.springframework.data.jpa.repository.*;
 import com.mycompany.myapp.domain.[[[zg-entity...zg-name]]];
 import com.mycompany.myapp.domain.[[[zg-entity...zg-name]]]Pk;
 import com.mycompany.myapp.domain.[[[zg-entity...zg-name]]]_;
-
+//Code generation
 public interface [[[zg-entity...zg-name]]]Repository extends JpaRepository<[[[zg-entity...zg-name]]], [[[zg-entity...zg-name]]]Pk> {
 
     default List<[[[zg-entity...zg-name]]]> complete(String query, int maxResults) {
